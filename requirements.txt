@@ -1,3 +1,4 @@
+databricks-sdk=0.50.0
 pyarrow==19.0.1
 pyspark==4.0.0
 requests==2.32.4
