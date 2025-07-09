@@ -1,0 +1,4 @@
+ipykernel==6.26.0
+pyarrow==19.0.1
+pyspark==4.0.0
+requests==2.32.4
