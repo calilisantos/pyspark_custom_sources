@@ -1,0 +1,12 @@
+[project]
+name = "custom_sources"
+version = "0.1.0"
+authors = [
+  { name="Calili Santos", email="calilisantos@gmail.com" },
+]
+description = "This package aims to provide custom data sources for Databricks."
+readme = "README.md"
+keywords = ["pyspark", "customDatasource", "Spark", "Databricks"]
+
+[project.urls]
+"Source" = "https://github.com/calilisantos/pyspark_custom_sources/tree/main"
