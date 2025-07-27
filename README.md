@@ -6,23 +6,25 @@ O objetivo é exemplificar o uso do `pyspark.sql.datasource` com a criação de 
 
 ### **1º Clonando esse repositório no Databricks (inclusive Free Edition):**
 
-* Nas Configurações da sua conta no **GitHub**, no menu `Developer Settings > Personal access tokens > Fine grained tokens (recomendado)`, crie um token com a permissão `Contents` à nível do repositório a ser clonado.
+* Faça um fork desse repositório para sua conta github
+
+* Nas Configurações da sua conta no **GitHub**, no menu `Developer Settings > Personal access tokens > Fine grained tokens (recomendado)`, crie um token com a permissão `Contents` à nível do repositório a ser clonado (recomendado) ou para todos os seus repositórios.
 
   * **Imagem 01 - Criando token Github:**
 
     ![databricks-github-permissions =40](docs/databricks-github-permissions.png)
 
-* No Databricks, acesse o menu `Settings > Linked accounts`, clique no botão `Add Git credential` e cole o token gerado no `Github`
+* No Databricks, acesse o menu `Settings > Linked accounts`, clique no botão `Add Git credential` e cole o token gerado anteriormente.
 
   * **Imagem 02 - Criando Git credential no Databricks:**
 
     ![databricks_git_config](docs/databricks_git_config.png)
 
-* No seu Workspace Databrics, clique no botão `Create` e selecione `Git Folder`, informando a url **HTTPS** do repositório **Github**
+* No seu Workspace Databricks, clique no botão `Create` e selecione `Git Folder`, informando a url **HTTPS** do repositório resultado do **fork**
 
 ### **2º Adicionando pacote no notebook:**
 
-* Crie um notebook no seu workspace Databricks, e no seu menu `Environment` clique no botão `Add dependency`, e selecione o caminho do diretório `custom_sources` do repositório clonado na sua workspace
+* Crie um notebook no seu workspace Databricks, e no seu menu `Environment` clique no botão `Add dependency`, e selecione o caminho do diretório `custom_sources` do repositório clonado na sua workspace, e clique no botão**Apply**
 
   * **Imagem 03 - Instalando pacote python no notebook Databricks:**
 
